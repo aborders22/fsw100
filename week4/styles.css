@@ -1,0 +1,51 @@
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+
+}
+.menu{
+    position: relative;
+    left: 500px;
+}
+.about{
+    position: relative;
+    left: 1000px;
+}
+
+.trinidad{
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+.tulumbeach{
+    position: relative;
+    left: 200px;
+    top: 300px;
+}
+.lagunabeach{
+    position: relative;
+    left: 200px;
+    top: 500px;
+}
+
+img{
+    float: left;
+    margin:7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
