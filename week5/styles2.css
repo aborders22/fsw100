@@ -1,0 +1,125 @@
+@media only screen and (min-width:320px){
+#grid-container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+Header{
+    font-size: 22px;
+    border: 3px solid white;
+    background-color: aqua;
+    text-align: center;
+    grid-column: 1 / 9;
+}
+
+#left{
+    font-size: 20px;
+    border: 3px solid white;
+    background-color: salmon;
+    text-align: center;
+    grid-column: 1 / 9;
+}
+#right{
+    font-size: 20px;
+    border: 3px solid white;
+    background-color: peachpuff;
+    text-align: center;
+    grid-column: 1 / 9;
+}
+
+main{
+    font-size: 20px;
+    border: 3px solid white;
+    background-color: violet;
+    text-align: center;
+    grid-column: 1 / 9;
+}
+footer{
+    font-size: 22px;
+    border: 3px solid white;
+    background-color: royalblue;
+    text-align: center;
+    grid-column: 1 / 9;
+}
+}
+
+
+@media only screen and (min-width:768px){
+    Header{
+        font-size: 22px;
+        border: 3px solid white;
+        background-color: aqua;
+        text-align: center;
+        grid-column: 1 / 9;
+    }
+    
+    #left{
+        font-size: 20px;
+        border: 3px solid white;
+        background-color: salmon;
+        text-align: center;
+        grid-column: 1 / 4;
+    }
+    main{
+        font-size: 20px;
+        border: 3px solid white;
+        background-color: violet;
+        text-align: center;
+        grid-column: 4 / 9;
+    }
+    #right{
+        font-size: 20px;
+        border: 3px solid white;
+        background-color: peachpuff;
+        text-align: center;
+        grid-column: 1 / 9;
+    }
+    
+    footer{
+        font-size: 22px;
+        border: 3px solid white;
+        background-color: royalblue;
+        text-align: center;
+        grid-column: 1 / 9;
+    }
+
+}
+
+@media only screen and (min-width:1024px){
+    Header{
+        font-size: 22px;
+        border: 3px solid white;
+        background-color: aqua;
+        text-align: center;
+        grid-column: 1 / 9;
+    }
+    
+    #left{
+        font-size: 20px;
+        border: 3px solid white;
+        background-color: salmon;
+        text-align: center;
+        grid-column: 1 / 2;
+    }
+    main{
+        font-size: 20px;
+        border: 3px solid white;
+        background-color: violet;
+        text-align: center;
+        grid-column: 3 / 7;
+    }
+    #right{
+        font-size: 20px;
+        border: 3px solid white;
+        background-color: peachpuff;
+        text-align: center;
+        grid-column: 8 / 9;
+    }
+    
+    footer{
+        font-size: 22px;
+        border: 3px solid white;
+        background-color: royalblue;
+        text-align: center;
+        grid-column: 1 / 9;
+    }
+}
